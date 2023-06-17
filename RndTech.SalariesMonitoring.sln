@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RndTech.SalariesMonitoring.Db", "src\RndTech.SalariesMonitoring.Db\RndTech.SalariesMonitoring.Db.csproj", "{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RndTech.SalariesMonitoring.Database", "src\RndTech.SalariesMonitoring.Database\RndTech.SalariesMonitoring.Database.csproj", "{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
