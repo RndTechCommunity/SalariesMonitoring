@@ -8,11 +8,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="ModelConfiguration\" />
-      <Folder Include="Models\" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.7" />
     </ItemGroup>
 
 </Project>
