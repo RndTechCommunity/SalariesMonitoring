@@ -1,5 +1,4 @@
-﻿using System.Security.Authentication;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using RndTech.SalariesMonitoring.Database.Models;
 
@@ -28,7 +27,6 @@ public class SalaryMonitoringRequestVacancyEntityTypeConfiguration
 		builder.Property(x => x.EmploymentName).HasColumnName("employment_name");
 		builder.Property(x => x.CompanyId).HasColumnName("company_id");
 		builder.Property(x => x.CompanyName).HasColumnName("company_name");
-		builder.Property(x => x.City).HasColumnName("city");
 		
 		builder.HasKey(e => e.Id);
 		builder.Property(e => e.Name).IsRequired();
@@ -36,7 +34,6 @@ public class SalaryMonitoringRequestVacancyEntityTypeConfiguration
 		builder.Property(e => e.AlternateUrl).IsRequired();
 		builder.Property(e => e.ExternalId).IsRequired();
 		builder.Property(e => e.RequestId).IsRequired();
-		builder.Property(e => e.City).IsRequired();
 
 		builder
 			.HasOne(e => e.Request)

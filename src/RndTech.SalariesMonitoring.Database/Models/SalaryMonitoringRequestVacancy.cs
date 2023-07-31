@@ -22,5 +22,4 @@ public class SalaryMonitoringRequestVacancy
 	public string? EmploymentName { get; set; }
 	public string? CompanyId { get; set; }
 	public string? CompanyName { get; set; }
-	public string? City { get; set; }
 }

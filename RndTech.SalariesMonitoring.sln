@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RndTech.SalariesMonitoring.Database", "src\RndTech.SalariesMonitoring.Database\RndTech.SalariesMonitoring.Database.csproj", "{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RndTech.SalariesMonitoring.Api", "src\RndTech.SalariesMonitoring.Api\RndTech.SalariesMonitoring.Api.csproj", "{FCBA246B-1CB5-4683-8475-658A484CC3EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44DDB1CE-5DB9-4105-8834-FA1B01E76F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBA246B-1CB5-4683-8475-658A484CC3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBA246B-1CB5-4683-8475-658A484CC3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBA246B-1CB5-4683-8475-658A484CC3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBA246B-1CB5-4683-8475-658A484CC3EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
